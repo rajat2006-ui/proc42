@@ -12,15 +12,15 @@ var man,manAnimation,manBody;
 var thunderImg1,thunderImg2,thunderImg3,thunderImg4
 
 function preload(){
-    manAnimation=loadAnimation("Walking Frame/walking_1.png","Walking Frame/walking_2.png",
-                                "Walking Frame/walking_3.png","Walking Frame/walking_4.png",
-                                "Walking Frame/walking_5.png","Walking Frame/walking_6.png",
-                                "Walking Frame/walking_7.png","Walking Frame/walking_8.png")
+    manAnimation=loadAnimation("walking_1.png","walking_2.png",
+                                "walking_3.png","walking_4.png",
+                                "walking_5.png","walking_6.png",
+                                "walking_7.png","walking_8.png")
 
-    thunderImg1=loadImage("thunderbolt/1.png") 
-    thunderImg2=loadImage("thunderbolt/2.png")  
-    thunderImg3=loadImage("thunderbolt/3.png")  
-    thunderImg4=loadImage("thunderbolt/4.png")                             
+    thunderImg1=loadImage("1.png") 
+    thunderImg2=loadImage("2.png")  
+    thunderImg3=loadImage("3.png")  
+    thunderImg4=loadImage("4.png")                             
 }
 
 function setup(){
